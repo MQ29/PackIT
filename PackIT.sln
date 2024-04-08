@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackIT", "PackIT\PackIT.csproj", "{1FF48C5C-BDC5-4C2B-BCD7-75F6D2C4A22C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FF48C5C-BDC5-4C2B-BCD7-75F6D2C4A22C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF48C5C-BDC5-4C2B-BCD7-75F6D2C4A22C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF48C5C-BDC5-4C2B-BCD7-75F6D2C4A22C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF48C5C-BDC5-4C2B-BCD7-75F6D2C4A22C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A81CD2A-BE2E-4650-8494-4AEF0C73499F}
+	EndGlobalSection
+EndGlobal
