@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PackIT.Domain.ValueObjects;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,15 @@ namespace PackIT.Domain.Entities
     public class PackingList
     {
         public Guid Id { get; private set; }
-        public string Name { get; private set; }
-        public string Localization { get; private set; }
+
+        private PackingListName _name;
+        private string _localization;
+
+        internal PackingList(Guid id, PackingListName name, string localization)
+        {
+            Id = id;
+            _name = name;
+            _localization = localization;
+        }
     }
 }
