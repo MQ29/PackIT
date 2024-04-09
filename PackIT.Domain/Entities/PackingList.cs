@@ -1,4 +1,5 @@
-﻿using PackIT.Domain.Exceptions;
+﻿using PackIT.Domain.Events;
+using PackIT.Domain.Exceptions;
 using PackIT.Domain.ValueObjects;
 using PackIT.Shared.Abstractions.Domain;
 using System;
@@ -35,6 +36,7 @@ namespace PackIT.Domain.Entities
             }
 
             _items.AddLast(item);
+            AddEvent(new PackingItemAdded(this,item));
         }
     }
 }
