@@ -11,7 +11,7 @@ namespace PackIT.Domain.ValueObjects
     {
         public string Name { get; }
         public uint Quantity { get; }
-        public bool IsPacked { get; init; }
+        public bool IsPacked { get; init; } //can be initialized only through ctor or during creation
 
         public PackingItem(string name, uint quantity, bool isPacked)
         {
