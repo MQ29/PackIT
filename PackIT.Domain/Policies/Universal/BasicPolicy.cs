@@ -25,7 +25,7 @@ namespace PackIT.Domain.Policies.Universal
                 new("Passport", 1),
                 new("Phone Charger", 1)
             };
-        public bool IsApplicable(PolicyData data)
+        public bool IsApplicable(PolicyData _) //parameter not used in the method's body
             => true;
     }
 }

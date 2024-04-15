@@ -1,4 +1,5 @@
 ﻿using PackIT.Domain.Const;
+using PackIT.Domain.Entities;
 using PackIT.Domain.ValueObjects;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,7 @@ namespace PackIT.Domain.Factories
 {
     public interface IPackingListFactory
     {
-        PackingItem Create(PackingListId id, PackingListName name, Localization localization);
-        PackingItem CreateWithDefaultItems(PackingListId id, PackingListName name, TravelDays days, Gender gender, Temperature temperature, Localization localization);
+        PackingList Create(PackingListId id, PackingListName name, Localization localization);
+        PackingList CreateWithDefaultItems(PackingListId id, PackingListName name, TravelDays days, Gender gender, Temperature temperature, Localization localization);
     }
 }
