@@ -17,7 +17,7 @@ namespace PackIT.Domain.Factories
 
         public PackingItem CreateWithDefaultItems(PackingListId id, PackingListName name, TravelDays days, Gender gender, Temperature temperature, Localization localization)
         {
-            throw new NotImplementedException();
+
         }
     }
 }

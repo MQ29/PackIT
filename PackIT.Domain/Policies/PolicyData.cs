@@ -8,5 +8,5 @@ using System.Threading.Tasks;
 
 namespace PackIT.Domain.Policies
 {
-    public record PolicyData(TravelDays days, Gender gender, Temperature temperature, Localization localization);
+    public record PolicyData(TravelDays days, Const.Gender gender, ValueObjects.Temperature temperature, Localization localization);
 }
