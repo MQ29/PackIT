@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace PackIT.Domain.Factories
 {
-    internal class PackigListFactory : IPackingListFactory
+    public sealed class PackingListFactory : IPackingListFactory
     {
         private readonly IEnumerable<IPackingItemsPolicy> _policies;
 
-        public PackigListFactory(IEnumerable<IPackingItemsPolicy> policies)
+        public PackingListFactory(IEnumerable<IPackingItemsPolicy> policies)
         {
             _policies = policies;
         }

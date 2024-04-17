@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "S2Q/ypw1DH535/PfvBQ602uuogqeZMhTaQaTY2RpOHZ4m++WMOZWrqqQ/Cg6Zkus/uOu/WdfhpMTqEVdARx0hQ==",
+  "dgSpecHash": "5HWpyq6bdpE87Htd502f8QmCfY9wJetCbhClcUHKDGKdJlb6DrWngKgMEtWPlTfcxbRtx6Lpq/aa6+8tbM01VA==",
   "success": true,
   "projectFilePath": "C:\\Users\\matia\\source\\repos\\PackIT\\PackIT.Infrasctructure\\PackIT.Infrasctructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\matia\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\matia\\.nuget\\packages\\microsoft.extensions.dependencymodel\\6.0.0\\microsoft.extensions.dependencymodel.6.0.0.nupkg.sha512",
+    "C:\\Users\\matia\\.nuget\\packages\\scrutor\\4.2.2\\scrutor.4.2.2.nupkg.sha512",
+    "C:\\Users\\matia\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\matia\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\matia\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\matia\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\matia\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

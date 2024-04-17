@@ -1,0 +1,71 @@
+[33mcommit e4da8a7f872c064ee238e175cdf50a4da80ed408[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: MQ29 <matiax2829@gmail.com>
+Date:   Mon Apr 15 20:42:03 2024 +0200
+
+    Repository interface
+
+[33mcommit c7e6ed654adddca5a8256c9bdeb755403d8e5b52[m
+Author: MQ29 <matiax2829@gmail.com>
+Date:   Mon Apr 15 20:12:52 2024 +0200
+
+    facotry finished
+
+[33mcommit 30f01ccbcaaae39d5856294b88211ada1b1f6d1d[m
+Author: MQ29 <matiax2829@gmail.com>
+Date:   Mon Apr 15 14:17:45 2024 +0200
+
+    Policies
+
+[33mcommit 6cecc4b6ac65eebabc48c99293fa502ab0756daf[m
+Author: MQ29 <matiax2829@gmail.com>
+Date:   Fri Apr 12 20:42:22 2024 +0200
+
+    First Policy
+
+[33mcommit fbfde92f27b0f3abafcc06e906a95f45687eb1b5[m
+Author: MQ29 <matiax2829@gmail.com>
+Date:   Fri Apr 12 20:36:19 2024 +0200
+
+    Factories and Policies
+
+[33mcommit d65d6a15cd86a088f2e19a276e971be34471636a[m
+Author: MQ29 <matiax2829@gmail.com>
+Date:   Tue Apr 9 18:58:43 2024 +0200
+
+    PackItem, RemoveItem
+
+[33mcommit c22a3bc45742424e2d689e50f0f2986f2d95ad2d[m
+Author: MQ29 <matiax2829@gmail.com>
+Date:   Tue Apr 9 15:43:47 2024 +0200
+
+    Added DomainEvent
+
+[33mcommit 283a91d6bebb0d873aa832f74de3e34a9834d490[m
+Author: MQ29 <matiax2829@gmail.com>
+Date:   Tue Apr 9 10:13:44 2024 +0200
+
+    IDomainEvent
+
+[33mcommit b9bbe06ce3655aea140fbc490314247be9db722d[m
+Author: MQ29 <matiax2829@gmail.com>
+Date:   Tue Apr 9 09:40:25 2024 +0200
+
+    Added AggregateRoot
+
+[33mcommit 9b7fe5be39abcccc66113824ed617e5f2b7b65ba[m
+Author: MQ29 <matiax2829@gmail.com>
+Date:   Mon Apr 8 19:20:21 2024 +0200
+
+    First Value Object and Custom Exception
+
+[33mcommit defe17a8f700cf516b01f72be9e013ae072cfae2[m
+Author: MQ29 <matiax2829@gmail.com>
+Date:   Mon Apr 8 18:30:52 2024 +0200
+
+    The Blueprint
+
+[33mcommit 7b28602293161894a2f081a96cd4862862cb7cea[m
+Author: MQ29 <matiax2829@gmail.com>
+Date:   Mon Apr 8 18:28:46 2024 +0200
+
+    first commit

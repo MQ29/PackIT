@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PackIT.Domain.Policies.Temperature
 {
-    internal class HighTemperaturePolicy : IPackingItemsPolicy
+    internal sealed class HighTemperaturePolicy : IPackingItemsPolicy
     {
         public IEnumerable<PackingItem> GenerateItems(PolicyData data)
             => new List<PackingItem>

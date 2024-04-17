@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PackIT.Domain.Policies.Gender
 {
-    internal class MaleGenderPolicy : IPackingItemsPolicy
+    internal sealed class MaleGenderPolicy : IPackingItemsPolicy
     {
         public IEnumerable<PackingItem> GenerateItems(PolicyData data)
             => new List<PackingItem>()
