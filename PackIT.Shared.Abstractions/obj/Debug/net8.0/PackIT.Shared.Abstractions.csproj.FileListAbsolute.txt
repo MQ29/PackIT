@@ -1,0 +1,12 @@
+C:\Users\matia\source\repos\PackIT\PackIT.Shared.Abstractions\bin\Debug\net8.0\PackIT.Shared.Abstractions.deps.json
+C:\Users\matia\source\repos\PackIT\PackIT.Shared.Abstractions\bin\Debug\net8.0\PackIT.Shared.Abstractions.dll
+C:\Users\matia\source\repos\PackIT\PackIT.Shared.Abstractions\bin\Debug\net8.0\PackIT.Shared.Abstractions.pdb
+C:\Users\matia\source\repos\PackIT\PackIT.Shared.Abstractions\obj\Debug\net8.0\PackIT.Shared.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matia\source\repos\PackIT\PackIT.Shared.Abstractions\obj\Debug\net8.0\PackIT.Shared.Abstractions.AssemblyInfoInputs.cache
+C:\Users\matia\source\repos\PackIT\PackIT.Shared.Abstractions\obj\Debug\net8.0\PackIT.Shared.Abstractions.AssemblyInfo.cs
+C:\Users\matia\source\repos\PackIT\PackIT.Shared.Abstractions\obj\Debug\net8.0\PackIT.Shared.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\matia\source\repos\PackIT\PackIT.Shared.Abstractions\obj\Debug\net8.0\PackIT.Shared.Abstractions.sourcelink.json
+C:\Users\matia\source\repos\PackIT\PackIT.Shared.Abstractions\obj\Debug\net8.0\PackIT.Shared.Abstractions.dll
+C:\Users\matia\source\repos\PackIT\PackIT.Shared.Abstractions\obj\Debug\net8.0\refint\PackIT.Shared.Abstractions.dll
+C:\Users\matia\source\repos\PackIT\PackIT.Shared.Abstractions\obj\Debug\net8.0\PackIT.Shared.Abstractions.pdb
+C:\Users\matia\source\repos\PackIT\PackIT.Shared.Abstractions\obj\Debug\net8.0\ref\PackIT.Shared.Abstractions.dll

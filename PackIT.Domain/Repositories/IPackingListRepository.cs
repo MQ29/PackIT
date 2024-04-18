@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PackIT.Domain.Repositories
 {
-    internal interface IPackingListRepository
+    public interface IPackingListRepository
     {
         Task<PackingList> GetAsync(PackingListId Id);
         Task<PackingList> AddAsync(PackingList packingList);

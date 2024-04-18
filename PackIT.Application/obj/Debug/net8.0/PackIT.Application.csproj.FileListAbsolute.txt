@@ -1,0 +1,6 @@
+C:\Users\matia\source\repos\PackIT\PackIT.Application\obj\Debug\net8.0\PackIT.Application.csproj.AssemblyReference.cache
+C:\Users\matia\source\repos\PackIT\PackIT.Application\obj\Debug\net8.0\PackIT.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matia\source\repos\PackIT\PackIT.Application\obj\Debug\net8.0\PackIT.Application.AssemblyInfoInputs.cache
+C:\Users\matia\source\repos\PackIT\PackIT.Application\obj\Debug\net8.0\PackIT.Application.AssemblyInfo.cs
+C:\Users\matia\source\repos\PackIT\PackIT.Application\obj\Debug\net8.0\PackIT.Application.csproj.CoreCompileInputs.cache
+C:\Users\matia\source\repos\PackIT\PackIT.Application\obj\Debug\net8.0\PackIT.Application.sourcelink.json

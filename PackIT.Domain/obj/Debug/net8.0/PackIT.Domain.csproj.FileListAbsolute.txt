@@ -1,0 +1,16 @@
+C:\Users\matia\source\repos\PackIT\PackIT.Domain\bin\Debug\net8.0\PackIT.Domain.deps.json
+C:\Users\matia\source\repos\PackIT\PackIT.Domain\bin\Debug\net8.0\PackIT.Domain.dll
+C:\Users\matia\source\repos\PackIT\PackIT.Domain\bin\Debug\net8.0\PackIT.Domain.pdb
+C:\Users\matia\source\repos\PackIT\PackIT.Domain\bin\Debug\net8.0\PackIT.Shared.Abstractions.dll
+C:\Users\matia\source\repos\PackIT\PackIT.Domain\bin\Debug\net8.0\PackIT.Shared.Abstractions.pdb
+C:\Users\matia\source\repos\PackIT\PackIT.Domain\obj\Debug\net8.0\PackIT.Domain.csproj.AssemblyReference.cache
+C:\Users\matia\source\repos\PackIT\PackIT.Domain\obj\Debug\net8.0\PackIT.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matia\source\repos\PackIT\PackIT.Domain\obj\Debug\net8.0\PackIT.Domain.AssemblyInfoInputs.cache
+C:\Users\matia\source\repos\PackIT\PackIT.Domain\obj\Debug\net8.0\PackIT.Domain.AssemblyInfo.cs
+C:\Users\matia\source\repos\PackIT\PackIT.Domain\obj\Debug\net8.0\PackIT.Domain.csproj.CoreCompileInputs.cache
+C:\Users\matia\source\repos\PackIT\PackIT.Domain\obj\Debug\net8.0\PackIT.Domain.sourcelink.json
+C:\Users\matia\source\repos\PackIT\PackIT.Domain\obj\Debug\net8.0\PackIT.Domain.csproj.CopyComplete
+C:\Users\matia\source\repos\PackIT\PackIT.Domain\obj\Debug\net8.0\PackIT.Domain.dll
+C:\Users\matia\source\repos\PackIT\PackIT.Domain\obj\Debug\net8.0\refint\PackIT.Domain.dll
+C:\Users\matia\source\repos\PackIT\PackIT.Domain\obj\Debug\net8.0\PackIT.Domain.pdb
+C:\Users\matia\source\repos\PackIT\PackIT.Domain\obj\Debug\net8.0\ref\PackIT.Domain.dll
