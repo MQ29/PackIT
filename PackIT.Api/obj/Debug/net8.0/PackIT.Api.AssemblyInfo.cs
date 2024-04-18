@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("PackIT.Shared.Abstractions")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("PackIT.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("PackIT.Shared.Abstractions")]
-[assembly: System.Reflection.AssemblyTitleAttribute("PackIT.Shared.Abstractions")]
+[assembly: System.Reflection.AssemblyProductAttribute("PackIT.Api")]
+[assembly: System.Reflection.AssemblyTitleAttribute("PackIT.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Wygenerowane przez klasę WriteCodeFragment programu MSBuild.
