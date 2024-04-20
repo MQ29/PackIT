@@ -13,7 +13,7 @@ using PackIT.Domain.ValueObjects;
 
 namespace PackIT.Application.Commands.Handlers
 {
-    public class CreatePackingListWithItemsHandler : ICommandHandler<CreatePackingListWithItems>
+    internal sealed class CreatePackingListWithItemsHandler : ICommandHandler<CreatePackingListWithItems>
     {
         private readonly IPackingListRepository _repository;
         private readonly IPackingListFactory _factory;

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PackIT.Application.DTO.External
+namespace PackIT.Shared.Queries
 {
-    public record WeatherDto(double Temperature)
+    public class InMemoryQueryDispatcher
     {
     }
 }

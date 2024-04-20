@@ -13,6 +13,6 @@ namespace PackIT.Domain.Repositories
         Task<PackingList> GetAsync(PackingListId Id);
         Task<PackingList> AddAsync(PackingList packingList);
         Task<PackingList> UpdateAsync(PackingList packingList);
-        Task<PackingList> RemoveAsync(PackingList packingList);
+        Task<PackingList> DeleteAsync(PackingList packingList);
     }
 }

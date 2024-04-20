@@ -10,14 +10,12 @@ using System.Threading.Tasks;
 
 namespace PackIT.Application.Commands.Handlers
 {
-    public class AddPackingListHandler : ICommandHandler<AddPackingItem>
+    internal sealed class AddPackingItemHandler: ICommandHandler<AddPackingItem>
     {
         private readonly IPackingListRepository _repository;
 
-        public AddPackingListHandler(IPackingListRepository repository)
-        {
-            _repository = repository;
-        }
+        public AddPackingItemHandler(IPackingListRepository repository)
+            => _repository = repository;
 
         public async Task HandleAsync(AddPackingItem command)
         {
