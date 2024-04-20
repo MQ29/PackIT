@@ -2,7 +2,7 @@
 using PackIT.Domain.Entities;
 using PackIT.Domain.Factories;
 using PackIT.Domain.Policies;
-using PackIT.Shared;
+using PackIT.Shared.Commands;
 using System;
 using System.Collections.Generic;
 using System.Linq;
