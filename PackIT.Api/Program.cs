@@ -1,4 +1,6 @@
 using PackIT.Application;
+using PackIT.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -8,8 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddApplication();
-
-
+builder.Services.AddInfrastructure();
 
 var app = builder.Build();
 

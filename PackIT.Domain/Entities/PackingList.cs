@@ -19,9 +19,14 @@ namespace PackIT.Domain.Entities
 
         private readonly LinkedList<PackingItem> _items = new();
 
-        internal PackingList(PackingListId id, PackingListName name, Localization localization, LinkedList<PackingItem> items) : this(id, name, localization) 
+        private PackingList(PackingListId id, PackingListName name, Localization localization, LinkedList<PackingItem> items) : this(id, name, localization) 
         {
             _items = items; //we are assuming that there is no dublicates, we are not using AddItem() 
+        }
+
+        private PackingList()
+        {
+
         }
 
         internal PackingList(PackingListId id, PackingListName name, Localization localization)
