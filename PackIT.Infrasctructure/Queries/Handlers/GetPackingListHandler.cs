@@ -1,32 +1,26 @@
-﻿using PackIT.Application.DTO;
-using PackIT.Application.Exceptions;
-using PackIT.Domain.Repositories;
+﻿using Microsoft.EntityFrameworkCore;
+using PackIT.Application.DTO;
+using PackIT.Application.Queries;
+using PackIT.Infrastructure.EF.Contexts;
 using PackIT.Infrastructure.EF.Models;
 using PackIT.Shared.Abstractions.Queries;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PackIT.Infrastructure.Queries.Handlers
 {
     internal sealed class GetPackingListHandler : IQueryHandler<GetPackingList, PackingListDto>
     {
-        private readonly IPackingListRepository _repository;
-        public GetPackingListHandler(IPackingListRepository repository)
-            => _repository = repository;
-
-        public async Task<PackingListDto> HandleAsync(GetPackingList query)
+        private readonly DbSet<PackingListReadModel> _packingLists;
+        public GetPackingListHandler(ReadDbContext context)
         {
-            var packingList = await _repository.GetAsync(query.Id);
-
-            if (packingList is null)
-            {
-                throw new PackingListDoesntExistException(query.Id);
-            }
-
-            return packingList?.AsDto();
+            _packingLists = context.PackingLists;
         }
+
+        public Task<PackingListDto> HandleAsync(GetPackingList query)
+            => _packingLists
+            .Include(x => x.Items)
+            .Where(x => x.Id == query.Id)
+            .Select(x => x.AsDto())
+            .AsNoTracking()
+            .SingleOrDefaultAsync();
     }
 }

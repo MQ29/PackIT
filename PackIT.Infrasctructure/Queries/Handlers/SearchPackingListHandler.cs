@@ -1,4 +1,7 @@
-﻿using PackIT.Application.DTO;
+﻿using Microsoft.EntityFrameworkCore;
+using PackIT.Application.DTO;
+using PackIT.Application.Queries;
+using PackIT.Infrastructure.EF.Contexts;
 using PackIT.Infrastructure.EF.Models;
 using PackIT.Shared.Abstractions.Queries;
 using System;
@@ -9,10 +12,30 @@ using System.Threading.Tasks;
 
 namespace PackIT.Infrastructure.Queries.Handlers
 {
-    public class SearchPackingListHandler : IQueryHandler<SearchPackingLists, IEnumerable<PackingListDto>>
+    internal sealed class SearchPackingListHandler : IQueryHandler<SearchPackingLists, IEnumerable<PackingListDto>>
     {
-        public Task<IEnumerable<PackingListDto>> HandleAsync(SearchPackingLists query)
+        private readonly DbSet<PackingListReadModel> _packingList;
+        public SearchPackingListHandler(ReadDbContext context)
         {
+            _packingList = context.PackingLists;
         }
+        public async Task<IEnumerable<PackingListDto>> HandleAsync(SearchPackingLists query)
+        {
+            var dbQuery = _packingList
+                .Include(x => x.Items)
+                .AsQueryable();
+
+            if (dbQuery is not null)
+            {
+                dbQuery = dbQuery.Where(x =>                                    //ILike case insensitive
+                    Microsoft.EntityFrameworkCore.EF.Functions.ILike(x.Name, $"%{query.SearchPhrase}%"));
+            }
+
+            return await dbQuery
+                .Select(x => x.AsDto())
+                .AsNoTracking()
+                .ToListAsync();
+        }
+        
     }
 }
