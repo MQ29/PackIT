@@ -10,6 +10,6 @@ namespace PackIT.Shared.Options
             var options = new TOptions();
             configuration.GetSection(sectionName).Bind(options);
             return options;
-        }
+        }   
     }
 }
