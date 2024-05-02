@@ -13,5 +13,6 @@ namespace PackIT.Infrastructure
             services.AddQueries();
             return services;
         }
+
     }
 }

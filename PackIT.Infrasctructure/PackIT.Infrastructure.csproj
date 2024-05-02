@@ -15,8 +15,4 @@
     <ProjectReference Include="..\PackIT.Application\PackIT.Application.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="EF\Repositories\" />
-  </ItemGroup>
-
 </Project>
