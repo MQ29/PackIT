@@ -1,8 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using PackIT.Infrastructure.EF;
-using PackIT.Infrastructure.EF.Options;
-using PackIT.Shared.Options;
 using PackIT.Shared.Queries;
 
 namespace PackIT.Infrastructure
