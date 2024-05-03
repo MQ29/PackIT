@@ -8,12 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\PackIT.Application\PackIT.Application.csproj" />
     <ProjectReference Include="..\PackIT.Infrasctructure\PackIT.Infrastructure.csproj" />
+    <ProjectReference Include="..\PackIT.Shared\PackIT.Shared.csproj" />
   </ItemGroup>
 
 </Project>
