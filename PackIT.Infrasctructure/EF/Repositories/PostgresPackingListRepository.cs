@@ -18,22 +18,25 @@ namespace PackIT.Infrastructure.EF.Repositories
             _writeDbContext = writeDbContext;
         }
 
-        public Task<PackingList> AddAsync(PackingList packingList)
+        public async Task AddAsync(PackingList packingList)
         {
-            throw new NotImplementedException();
+            await _packingLists.AddAsync(packingList);
+            await _writeDbContext.SaveChangesAsync();
         }
 
-        public Task<PackingList> DeleteAsync(PackingList packingList)
+        public async Task DeleteAsync(PackingList packingList)
         {
-            throw new NotImplementedException();
+            _packingLists.Remove(packingList);
+            await _writeDbContext.SaveChangesAsync();
         }
 
         public Task<PackingList> GetAsync(PackingListId Id)
             => _packingLists.Include("_items").SingleOrDefaultAsync(x => x.Id == Id);
 
-        public Task<PackingList> UpdateAsync(PackingList packingList)
+        public async Task UpdateAsync(PackingList packingList)
         {
-            throw new NotImplementedException();
+            _packingLists.Update(packingList);
+            await _writeDbContext.SaveChangesAsync();
         }
     }
 }
