@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "gQy8ozpvkPJvwO4BQclouGtqbEPtC7hDy4sxDM0s76O9cB9837+sJ/sT0SERP22gYLzeqf1j8phT+zCGqAwttQ==",
+  "dgSpecHash": "/VqM4l/WoZsamlR8APr8sCO+QaQTrOQM91kmpjStKKebTBN6P1iqNsm+PL1yQ7MbLZY6jW183ToISZhkzFNzlA==",
   "success": true,
   "projectFilePath": "C:\\Users\\matia\\source\\repos\\PackIT\\PackIT.Application\\PackIT.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\matia\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\matia\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\matia\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.4\\microsoft.entityframeworkcore.8.0.4.nupkg.sha512",
     "C:\\Users\\matia\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.4\\microsoft.entityframeworkcore.abstractions.8.0.4.nupkg.sha512",
     "C:\\Users\\matia\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.4\\microsoft.entityframeworkcore.analyzers.8.0.4.nupkg.sha512",

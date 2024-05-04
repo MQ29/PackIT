@@ -9,14 +9,14 @@ using System.Threading.Tasks;
 
 namespace PackIT.Application.Commands.Handlers
 {
-    internal sealed class DeletePackingListHandler : ICommandHandler<DeletePackingList>
+    internal sealed class RemovePackingListHandler : ICommandHandler<RemovePackingList>
     {
         private readonly IPackingListRepository _repository;
 
-        public DeletePackingListHandler(IPackingListRepository repository)
+        public RemovePackingListHandler(IPackingListRepository repository)
             => _repository = repository;
 
-        public async Task HandleAsync(DeletePackingList command)
+        public async Task HandleAsync(RemovePackingList command)
         {
             var packingList = await _repository.GetAsync(command.Id);
 

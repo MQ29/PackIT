@@ -24,6 +24,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseShared();
+
+app.UseRouting();
 
 app.UseAuthorization();
 

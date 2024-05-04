@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "u9gC77Gwn5cvxElZ4r48DbPCY9oMYkJSItZoeXPyPk7ZeXXRcqt6DsJso4OrwtYqSLT10rfg5/jDda5QSgYQJg==",
+  "dgSpecHash": "jA4B5u1CoKTsMWCd9+IA2r02Akr9PNx5SNXnRsJ541PS2aFGr5yIL5ALqaNaLfPcDo6ZCsgjiT3Xc/3RVriW+w==",
   "success": true,
   "projectFilePath": "C:\\Users\\matia\\source\\repos\\PackIT\\PackIT.Api\\PackIT.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matia\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\matia\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\matia\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\matia\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\matia\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\matia\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0\\microsoft.codeanalysis.common.4.5.0.nupkg.sha512",
