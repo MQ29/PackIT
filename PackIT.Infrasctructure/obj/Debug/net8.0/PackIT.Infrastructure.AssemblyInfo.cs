@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PackIT.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a48f7b399204927cfda094aae1570f157587d245")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed7503d92586f6726000c50c51a84eb149302575")]
 [assembly: System.Reflection.AssemblyProductAttribute("PackIT.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PackIT.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
