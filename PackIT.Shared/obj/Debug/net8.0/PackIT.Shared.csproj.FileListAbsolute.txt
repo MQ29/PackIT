@@ -9,8 +9,8 @@ C:\Users\matia\source\repos\PackIT\PackIT.Shared\obj\Debug\net8.0\PackIT.Shared.
 C:\Users\matia\source\repos\PackIT\PackIT.Shared\obj\Debug\net8.0\PackIT.Shared.AssemblyInfo.cs
 C:\Users\matia\source\repos\PackIT\PackIT.Shared\obj\Debug\net8.0\PackIT.Shared.csproj.CoreCompileInputs.cache
 C:\Users\matia\source\repos\PackIT\PackIT.Shared\obj\Debug\net8.0\PackIT.Shared.sourcelink.json
-C:\Users\matia\source\repos\PackIT\PackIT.Shared\obj\Debug\net8.0\PackIT.Shared.csproj.CopyComplete
 C:\Users\matia\source\repos\PackIT\PackIT.Shared\obj\Debug\net8.0\PackIT.Shared.dll
 C:\Users\matia\source\repos\PackIT\PackIT.Shared\obj\Debug\net8.0\refint\PackIT.Shared.dll
 C:\Users\matia\source\repos\PackIT\PackIT.Shared\obj\Debug\net8.0\PackIT.Shared.pdb
 C:\Users\matia\source\repos\PackIT\PackIT.Shared\obj\Debug\net8.0\ref\PackIT.Shared.dll
+C:\Users\matia\source\repos\PackIT\PackIT.Shared\obj\Debug\net8.0\PackIT.S.AFEC07B1.Up2Date

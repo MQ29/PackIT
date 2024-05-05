@@ -17,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PackIT.Shared.Abstractions"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PackIT.Api", "PackIT.Api\PackIT.Api.csproj", "{369204AC-C990-4CBF-85B9-F7DEFE7DE2B6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{225C6028-38E3-454B-A4E0-50D0CA29A13F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackingListTests", "PackingListTests\PackingListTests.csproj", "{9795843C-B44E-46A2-BC7B-C3018CEED01F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +51,10 @@ Global
 		{369204AC-C990-4CBF-85B9-F7DEFE7DE2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{369204AC-C990-4CBF-85B9-F7DEFE7DE2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{369204AC-C990-4CBF-85B9-F7DEFE7DE2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9795843C-B44E-46A2-BC7B-C3018CEED01F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9795843C-B44E-46A2-BC7B-C3018CEED01F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9795843C-B44E-46A2-BC7B-C3018CEED01F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9795843C-B44E-46A2-BC7B-C3018CEED01F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +62,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{69D5C60F-63F0-436E-B9F8-3A806E41E092} = {795D8E29-79AC-4433-B403-EFDAF4803E12}
 		{3F21FC93-5D62-4921-AAC5-7CB8637C0886} = {795D8E29-79AC-4433-B403-EFDAF4803E12}
+		{9795843C-B44E-46A2-BC7B-C3018CEED01F} = {225C6028-38E3-454B-A4E0-50D0CA29A13F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8A81CD2A-BE2E-4650-8494-4AEF0C73499F}
