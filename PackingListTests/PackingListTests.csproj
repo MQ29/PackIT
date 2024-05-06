@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PackIT.Application\PackIT.Application.csproj" />
     <ProjectReference Include="..\PackIT.Domain\PackIT.Domain.csproj" />
   </ItemGroup>
 

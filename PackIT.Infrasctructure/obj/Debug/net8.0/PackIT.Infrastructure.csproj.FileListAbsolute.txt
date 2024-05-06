@@ -19,4 +19,4 @@ C:\Users\matia\source\repos\PackIT\PackIT.Infrasctructure\obj\Debug\net8.0\PackI
 C:\Users\matia\source\repos\PackIT\PackIT.Infrasctructure\obj\Debug\net8.0\refint\PackIT.Infrastructure.dll
 C:\Users\matia\source\repos\PackIT\PackIT.Infrasctructure\obj\Debug\net8.0\PackIT.Infrastructure.pdb
 C:\Users\matia\source\repos\PackIT\PackIT.Infrasctructure\obj\Debug\net8.0\ref\PackIT.Infrastructure.dll
-C:\Users\matia\source\repos\PackIT\PackIT.Infrasctructure\obj\Debug\net8.0\PackIT.I.7609DDA1.Up2Date
+C:\Users\matia\source\repos\PackIT\PackIT.Infrasctructure\obj\Debug\net8.0\PackIT.Infrastructure.csproj.CopyComplete

@@ -1,10 +1,4 @@
 ﻿using PackIT.Shared.Abstractions.Commands;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using PackIT.Domain;
 using PackIT.Domain.Repositories;
 using PackIT.Domain.Factories;
 using PackIT.Application.Services;
@@ -13,7 +7,7 @@ using PackIT.Domain.ValueObjects;
 
 namespace PackIT.Application.Commands.Handlers
 {
-    internal sealed class CreatePackingListWithItemsHandler : ICommandHandler<CreatePackingListWithItems>
+    public sealed class CreatePackingListWithItemsHandler : ICommandHandler<CreatePackingListWithItems>
     {
         private readonly IPackingListRepository _repository;
         private readonly IPackingListFactory _factory;

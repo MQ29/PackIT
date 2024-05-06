@@ -1,4 +1,5 @@
 ﻿using PackIT.Domain.Entities;
+using PackIT.Domain.Events;
 using PackIT.Domain.Exceptions;
 using PackIT.Domain.Factories;
 using PackIT.Domain.Policies;
@@ -21,6 +22,24 @@ namespace PackIT.UnitTests.Domain
 
             exception.ShouldNotBeNull();
             exception.ShouldBeOfType<PackingItemAlreadyExitsException>();
+
+        }
+
+        [Fact]
+        public void AddItem_Adds_PackingItemAdded_Domain_Event_On_Success()
+        {
+            var packingList = GetPackingList();
+
+            //ACT
+            var exception = Record.Exception(() => packingList.AddItem(new PackingItem("Item 1", 1)));
+
+            exception.ShouldBeNull();
+            packingList.Events.Count().ShouldBe(1);
+
+            var @event = packingList.Events.FirstOrDefault() as PackingItemAdded;
+
+            @event.ShouldNotBeNull();
+            @event.PackingItem.Name.ShouldBe("Item 1");
 
         }
 

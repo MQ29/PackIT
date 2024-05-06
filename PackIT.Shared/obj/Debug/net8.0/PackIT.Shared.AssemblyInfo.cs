@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PackIT.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a48f7b399204927cfda094aae1570f157587d245")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62ce91944fd741e470fc8be62190e350d445be6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PackIT.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PackIT.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

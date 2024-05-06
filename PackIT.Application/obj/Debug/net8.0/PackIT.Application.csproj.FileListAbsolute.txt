@@ -17,4 +17,4 @@ C:\Users\matia\source\repos\PackIT\PackIT.Application\obj\Debug\net8.0\PackIT.Ap
 C:\Users\matia\source\repos\PackIT\PackIT.Application\obj\Debug\net8.0\refint\PackIT.Application.dll
 C:\Users\matia\source\repos\PackIT\PackIT.Application\obj\Debug\net8.0\PackIT.Application.pdb
 C:\Users\matia\source\repos\PackIT\PackIT.Application\obj\Debug\net8.0\ref\PackIT.Application.dll
-C:\Users\matia\source\repos\PackIT\PackIT.Application\obj\Debug\net8.0\PackIT.A.5402BFBE.Up2Date
+C:\Users\matia\source\repos\PackIT\PackIT.Application\obj\Debug\net8.0\PackIT.Application.csproj.CopyComplete
